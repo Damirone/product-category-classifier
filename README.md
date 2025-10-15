@@ -5,22 +5,7 @@ Koristi se **scikit-learn** pipeline sa TF-IDF vektorizacijom i klasifikacijom p
 
 ## Struktura foldera
 
-product-category-classifier/
-├── Treniranje modela/
-│ ├── train_model.py 
-│ ├── test_modela.py 
-│ ├── products.csv
-│ └── model/
-│ ├── logreg_model.pkl
-│ ├── vectorizer.pkl 
-│ └── label_encoder.pkl 
-├── notebooks/
-│ └── data_exploration_and_cleaning_and_model_training.ipynb
-├── data/
-│ └── products.csv 
-├── .gitignore
-└── README.md
-
+<pre lang="nohighlight"> ```plaintext product-category-classifier/ ├── Treniranje modela/ │ ├── train_model.py │ ├── test_modela.py │ ├── products.csv │ └── model/ │ ├── logreg_model.pkl │ ├── vectorizer.pkl │ └── label_encoder.pkl ├── notebooks/ │ └── data_exploration_and_cleaning_and_model_training.ipynb ├── data/ │ └── products.csv ├── .gitignore └── README.md ``` </pre>
 ## Dataset
 
 Koristi se CSV fajl `products.csv` koji sadrži kolone:
